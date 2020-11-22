@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--article recycler view dimens-->
+    <dimen name="article_list_thumb_width_master">75dp</dimen>
+    <dimen name="article_list_thumb_height_master">75dp</dimen>
+    <dimen name="article_list_thumb_corner_radius_master">19dp</dimen>
+
+    <!--article detail page dimens-->
+    <dimen name="article_main_thumb_height_detail">350dp</dimen>
+    <dimen name="article_main_thumb_corner_radius_detail">35dp</dimen>
+    <dimen name="article_scroll_top_padding_detail">300dp</dimen>
+</resources>
