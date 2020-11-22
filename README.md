@@ -33,7 +33,7 @@ For now the repository only calls the api and post the data to the LiveData prov
 * **Repositories** holds the repo classes keeps the logic for calling api calls
 * **View** holds the activities and fragments and it also has a package named adapter which holds adpaters like for recyclerview, viewpager etc aand also contains the abstract class __BindingAdapter__ which holds the custom Binding Adapters for view binding
 * **Data** it holds three types of modelone for local uses as there is no need for so much un-necessary data we should use only which we use the second ones are observable for viewmodels and the third ones are for parsing json from api
-* **Unit Testing** due to the lack of time I was not able to work on unit tests home you will consider the assignment 
+* **Unit Testing** due to the lack of time and some issue I was not able to work on unit tests I hope you will consider the assignment 
 
 
 
