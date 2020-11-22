@@ -30,7 +30,7 @@ public class NewsRepository extends BaseRepository {
     }
 
     public void getMostViewedNews(MutableLiveData<ArrayList<NewsModelLocal>> dataLD){
-        retrofit.create(NYTimesApiService.class).getNewsList(1, "6gSR7gqbLsxSHYnYiLsuYPBpMKTh4fTs").enqueue(new Callback<Response>() {
+        retrofit.create(NYTimesApiService.class).getNewsList(30, "6gSR7gqbLsxSHYnYiLsuYPBpMKTh4fTs").enqueue(new Callback<Response>() {
             @Override
             public void onResponse(Call<Response> call, retrofit2.Response<Response> response) {
 
@@ -84,7 +84,7 @@ public class NewsRepository extends BaseRepository {
             @Override
             public void onFailure(Call<Response> call, Throwable t) {
 
-                int i = 0 ;
+                dataLD.postValue(null);
             }
         });
 
